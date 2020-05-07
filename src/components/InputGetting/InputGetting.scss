@@ -1,0 +1,23 @@
+.inputGetting {
+	width: auto;
+	flex-grow: 1;
+	margin: 10px;
+	padding: 10px 20px;
+	border: 1px solid gray;
+	.form-group {
+		text-align: left;
+		.getText {
+			width: 100%;
+		}
+		.focusBackground:focus {
+			background-color: lightblue;
+		}
+		#btnCheckNow {
+			background-color: #a5a7aa;
+			color: white;
+			padding: 10px 20px;
+			margin-top: 10px;
+		}
+	}
+}
+
